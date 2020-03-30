@@ -1,4 +1,6 @@
 package observer;
 
-public interface observer {
+public interface Observer {
+    public void update();
+    public void setTopic(Observable topic);
 }
